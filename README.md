@@ -1,5 +1,8 @@
 # Finble-FE
 
+### 개요
+https://github.com/finble-dev
+
 ### 배포링크
 https://front.finble.net/
 
@@ -30,5 +33,22 @@ yarn install  <br/>
 
 ### 머지 규칙
 1. 기능 단위 pr
-2. 코드리뷰 필요없는 간단한 pr || 긴급한 pr은 즉시 머지 가능
-   - 예외 제외하고는 리뷰어 코드리뷰후 머지
+2. 리뷰어 코드리뷰후 머지
+   예외 ) bug fix
+
+### 파일구조
+
+```
+|-- src
+|   |-- assets
+|   |-- components
+|   |-- interface
+|   |-- network
+|   |-- pages
+|   |-- store
+|   |-- types
+|
+|-- App.tsx
+|-- index.tsx
+
+```
